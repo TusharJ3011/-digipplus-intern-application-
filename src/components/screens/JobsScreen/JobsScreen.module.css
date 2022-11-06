@@ -1,0 +1,129 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+#flexBar1{
+    width: 20%;
+    padding-left: 10px;
+}
+
+#flexBar2{
+    width: 60%;
+}
+
+#flexBar3{
+    width: 20%;
+}
+
+.sideBarContainer{
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+.sideBarSubContainer{
+    padding: 5px;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #eff8ff;
+    display: flex;
+    align-items: center;
+}
+
+.selected{
+    background-color: #708090;
+}
+
+.sideBarSubContainerText{
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sideBarContainerText{
+    color: #e4664c;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.announcementContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.announcementIconContainer{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.announcementIconText{
+    background-color: white;
+    margin: 0px;
+    padding-right: 1rem;
+}
+
+.announcementSubContainer{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0px;
+    background-color: #d0ecf0;
+    border-radius: 5px;
+}
+
+.announcementSubContainerText{
+    color: #096171;
+    padding: 10px;
+}
+
+.announcementSubContainerText{
+    margin: 0;
+}
+
+
+.jobSubSubContainer{
+    width: 25%;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 6px 10px 0 #e4664c;
+    border-radius: 5px;
+}
+
+.jobSubSubContainerTag{
+    font-size: small;
+    color: gray;
+}
+
+@media only screen and (max-width: 900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #flexBar1{
+        width: 80%;
+        padding-left: 10%;
+        margin-bottom: 50px;
+    }
+    
+    #flexBar2{
+        width: 80%;
+        padding-left: 10%;
+        margin-bottom: 50px;
+    }
+    
+    #flexBar3{
+        width: 80%;
+        padding-left: 10%;
+        margin-bottom: 50px;
+    }
+
+    .jobSubSubContainer{
+        width: 100%;
+    }
+}

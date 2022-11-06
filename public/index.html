@@ -24,10 +24,45 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Digipplus</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Company logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div style="margin-left: 30% ;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/jobs">My Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/payments" onclick="">My Payments</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">My Offerletters</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">My Certificate</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <p style="background: rgb(238,233,208); background: linear-gradient(0deg, rgba(238,233,208,1) 0%, rgb(244, 204, 25) 55%); width:100%; height:0.3rem; margin-bottom:3%;"></p> -->
+
+    
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +74,20 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+
+            // =======================Toggle Navbar=======================
+            $('.menu_btn').click(function(){
+                $(".navbar_1 .menu").toggleClass("active");
+                $(".menu_btn i").toggleClass("active");
+            });
+
+
+        });
+    </script>
   </body>
 </html>

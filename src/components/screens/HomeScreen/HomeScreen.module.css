@@ -1,0 +1,95 @@
+.container{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logoContainer{
+    width: 100%;
+    text-align: center;
+}
+
+.AppLogo {
+    height: 10vmin;
+    pointer-events: none;
+}
+
+.companyName{
+    font-weight: bold;
+}
+
+.announcementContainer {
+    width: 100%;
+}
+
+.announcementIconContainer{
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.announcementIconText{
+    background-color: white;
+    margin: 0px;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+.announcementSubContainer{
+    width: 100%;
+    margin-top: 0px;
+    background-color: #d0ecf0;
+    border-radius: 5px;
+}
+
+.announcementSubContainerText{
+    color: #096171;
+    padding: 10px;
+}
+
+.announcementSubContainerText{
+    margin: 0;
+}
+
+.homeSubContainerText, .homeSubSubContainerText{
+    color: #e4664c;
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.homeSubContainer{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.homeSubSubContainer{
+    width: 20%;
+    padding: 0.5rem;
+    box-shadow: 0 6px 10px 0 #e4664c;
+    border-radius: 5px;
+}
+
+#internshipContainer{
+    margin-bottom: 5rem;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .homeSubSubContainer{
+        width: 90%;
+        padding: 0.5rem;
+        box-shadow: 0 6px 10px 0 #e4664c;
+        border-radius: 5px;
+    }
+}
+

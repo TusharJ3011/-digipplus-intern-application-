@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+#flexBar1{
+    width: 20%;
+    padding-left: 10px;
+}
+
+#flexBar2{
+    width: 60%;
+}
+
+#flexBar3{
+    width: 20%;
+}
+
+.sideBarContainer{
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+.sideBarSubContainer{
+    padding: 5px;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #eff8ff;
+    display: flex;
+    align-items: center;
+}
+
+.selected{
+    background-color: #708090;
+}
+
+.sideBarSubContainerText{
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sideBarContainerText{
+    color: #e4664c;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.paymentSubContainer{
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.paymentSubContainerText{
+    margin-bottom: 5px;
+}
+
+.paymentSubContainerTextHighlight{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.sideBar2Container{
+    width: 100%;
+    padding-left: 10%;
+    margin-bottom: 30px;
+}
+
+.sideBar2ContainerText{
+    margin-bottom: 3px;
+}
+
+.sideBar2ContainerText{
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #flexBar1{
+        width: 80%;
+        padding-left: 10%;
+    }
+    
+    #flexBar2{
+        width: 80%;
+        padding-left: 10%;
+    }
+    
+    #flexBar3{
+        width: 80%;
+        padding-left: 10%;
+    }
+}
